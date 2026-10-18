@@ -1,0 +1,26 @@
+<dependencies>
+  <compile
+      roots=":@@:hook::debug,org.jetbrains.kotlin:kotlin-stdlib:2.2.21@jar,org.jetbrains:annotations:13.0@jar">
+    <dependency
+        name=":@@:hook::debug"
+        simpleName="ClockTweaks:hook"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:2.2.21@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+  </compile>
+  <package
+      roots=":@@:hook::debug,org.jetbrains.kotlin:kotlin-stdlib:2.2.21@jar,org.jetbrains:annotations:13.0@jar">
+    <dependency
+        name=":@@:hook::debug"
+        simpleName="ClockTweaks:hook"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:2.2.21@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+  </package>
+</dependencies>

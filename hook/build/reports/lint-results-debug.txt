@@ -1,0 +1,21 @@
+C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\hook\src\main\java\io\github\clocktweaks\hook\ui\ClockUi.kt:143: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            text = "Skip times that already have an alarm"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\hook\src\main\java\io\github\clocktweaks\hook\ui\ClockUi.kt:150: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            text = "Delete the previous set with the same label first"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+0 errors, 2 warnings

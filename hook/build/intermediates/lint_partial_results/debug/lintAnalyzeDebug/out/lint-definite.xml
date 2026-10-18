@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="incidents">
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:hook*debug*MAIN*sourceProvider*0*javaDir*0}/io/github/clocktweaks/hook/ui/ClockUi.kt"
+            line="143"
+            column="21"
+            startOffset="5105"
+            endLine="143"
+            endColumn="58"
+            endOffset="5142"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:hook*debug*MAIN*sourceProvider*0*javaDir*0}/io/github/clocktweaks/hook/ui/ClockUi.kt"
+            line="150"
+            column="21"
+            startOffset="5341"
+            endLine="150"
+            endColumn="70"
+            endOffset="5390"/>
+    </incident>
+
+</incidents>

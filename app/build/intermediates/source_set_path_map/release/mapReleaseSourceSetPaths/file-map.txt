@@ -1,0 +1,8 @@
+io.github.clocktweaks.app-pngs-0 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\build\generated\res\pngs\release
+io.github.clocktweaks.app-resValues-1 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\build\generated\res\resValues\release
+io.github.clocktweaks.app-packageReleaseResources-2 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+io.github.clocktweaks.app-packageReleaseResources-3 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+io.github.clocktweaks.app-release-4 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\build\intermediates\merged_res\release\mergeReleaseResources
+io.github.clocktweaks.app-main-5 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\src\main\res
+io.github.clocktweaks.app-release-6 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\app\src\release\res
+io.github.clocktweaks.app-release-7 C:\Users\Admin\Desktop\ClockTweaks\ClockTweaks\hook\build\intermediates\packaged_res\release\packageReleaseResources

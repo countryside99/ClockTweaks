@@ -1,0 +1,6 @@
+io.github.clocktweaks:drawable/ic_launcher_monochrome = 0x7f010003
+io.github.clocktweaks:mipmap/ic_launcher = 0x7f020000
+io.github.clocktweaks:mipmap/ic_launcher_round = 0x7f020001
+io.github.clocktweaks:drawable/ic_launcher_foreground = 0x7f010002
+io.github.clocktweaks:drawable/ic_launcher_background = 0x7f010001
+io.github.clocktweaks:drawable/$ic_launcher_background__0 = 0x7f010000
